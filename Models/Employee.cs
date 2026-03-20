@@ -9,13 +9,13 @@ namespace EmployeeManagementAPI.Models
         public int EmployeeId { get; set; }
 
         [Required, MaxLength(50)]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = string.Empty;
 
         [Required, MaxLength(50)]
-        public string LastName { get; set; }
+        public string LastName { get; set; } = string.Empty;
 
         [Required, MaxLength(50)]
-        public string Email { get; set; }
+        public string Email { get; set; } = string.Empty;
 
         [Required]
         public DateOnly DOB { get; set; }

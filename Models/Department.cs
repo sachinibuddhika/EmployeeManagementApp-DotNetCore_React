@@ -9,10 +9,10 @@ namespace EmployeeManagementAPI.Models
         public int DepartmentId { get; set; }
 
         [Required,MaxLength(10)]
-        public string DepartmentCode { get; set; }
+        public string DepartmentCode { get; set; }=string.Empty;
 
         [Required, MaxLength(50)]
-        public string DepartmentName { get; set; }
+        public string DepartmentName { get; set; } = string.Empty;
         [Required]
         public DateTime CreatedDate { get; set; }
         [Required]

@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\employeemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:employeemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\employeemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:employeemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\interviews\\employeemanagementapi\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100321-4D23-4C9E-BD80-8D4D1C91C265}|EmployeeManagementAPI.csproj|solutionrelative:services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,45 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Data\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Data\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Data\\EmployeeRepository.cs*",
-              "RelativeToolTip": "Data\\EmployeeRepository.cs*",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:47:54.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Data\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "Data\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Data\\DatabaseHelper.cs*",
-              "RelativeToolTip": "Data\\DatabaseHelper.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Employee.cs*",
+              "RelativeToolTip": "Models\\Employee.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T03:55:14.546Z",
+              "WhenOpened": "2026-03-20T14:52:30.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeManagementAPI",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
-              "RelativeDocumentMoniker": "EmployeeManagementAPI.csproj",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj*",
-              "RelativeToolTip": "EmployeeManagementAPI.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-19T17:47:10.519Z",
+              "DocumentIndex": 0,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Department.cs*",
+              "RelativeToolTip": "Models\\Department.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:52:06.24Z",
               "EditorCaption": ""
             },
             {
@@ -82,40 +77,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:27:13.598Z",
+              "WhenOpened": "2026-03-20T06:16:10.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:53:11.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "Models\\Department.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Models\\Department.cs",
-              "RelativeToolTip": "Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:27:15.195Z",
+              "Title": "EmployeeManagementAPI",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
+              "RelativeDocumentMoniker": "EmployeeManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
+              "RelativeToolTip": "EmployeeManagementAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T06:15:03.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-19T16:46:33.728Z",
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:22:48.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:55:08.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T05:21:48.563Z",
               "EditorCaption": ""
             }
           ]

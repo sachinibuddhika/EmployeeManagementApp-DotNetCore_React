@@ -58,6 +58,7 @@ C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagement
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.sourcelink.json
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
