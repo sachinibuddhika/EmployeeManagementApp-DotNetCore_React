@@ -17,5 +17,8 @@ namespace EmployeeManagementAPI.Models
         public DateTime CreatedDate { get; set; }
         [Required]
         public DateTime ModifiedDate { get; set; }
+
+        public List<Employee> Employees { get; set; } = new List<Employee>();
+
     }
 }

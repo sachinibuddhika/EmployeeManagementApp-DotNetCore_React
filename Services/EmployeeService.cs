@@ -45,5 +45,10 @@ namespace EmployeeManagementAPI.Services
         {
             _repository.DeleteEmployee(id);
         }
+
+        public void AssignEmployeeToDepartment(int employeeId, int departmentId)
+        {
+            _repository.AssignEmployeeToDepartment(employeeId, departmentId);
+        }
     }
 }

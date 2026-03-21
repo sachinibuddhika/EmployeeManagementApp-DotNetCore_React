@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "I0IfQB5RiTA=",
+  "dgSpecHash": "CBHSvaWqCzg=",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\Interviews\\EmployeeManagementAPI\\EmployeeManagementAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.25\\microsoft.aspnetcore.authentication.jwtbearer.8.0.25.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.0\\microsoft.data.sqlclient.7.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlclient.extensions.abstractions\\1.0.0\\microsoft.data.sqlclient.extensions.abstractions.1.0.0.nupkg.sha512",

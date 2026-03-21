@@ -1,6 +1,7 @@
 ﻿using EmployeeManagementAPI.Data;
 using EmployeeManagementAPI.Models;
 using EmployeeManagementAPI.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -52,5 +53,20 @@ namespace EmployeeManagementAPI.Controllers
             _service.DeleteEmployee(id);
             return Ok("Employee deleted successfully");
         }
+
+        [HttpPost("{employeeId}/assign/{departmentId}")]
+        public IActionResult AssignEmployeeToDepartment(int employeeId, int departmentId)
+        {
+            _service.AssignEmployeeToDepartment(employeeId, departmentId);
+            return Ok($"Employee {employeeId} assigned to Department {departmentId}");
+        }
+
+        [Authorize]
+        [HttpGet("test")]
+        public IActionResult Test()
+        {
+            return Ok(new { Message = "JWT is valid!", Email = User.Identity.Name });
+        }
+
     }
 }

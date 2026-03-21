@@ -15,6 +15,7 @@ namespace EmployeeManagementAPI.Models
         public string LastName { get; set; } = string.Empty;
 
         [Required, MaxLength(50)]
+        [RegularExpression(@"^\S+@\S+\.\S+$", ErrorMessage = "Email must be in a valid format")]
         public string Email { get; set; } = string.Empty;
 
         [Required]
@@ -25,8 +26,8 @@ namespace EmployeeManagementAPI.Models
 
         [Required]
         public decimal Salary { get; set; }
-        
-        [Required]
+
+        [ForeignKey("Department")]
         public int DepartmentID { get; set; }
 
         [Required]
@@ -34,5 +35,16 @@ namespace EmployeeManagementAPI.Models
 
         [Required]
         public DateTime ModifiedDate { get; set; }
+
+        [Required]
+        public string PasswordHash { get; set; } = string.Empty;
+
+        [Required]
+        public string Role { get; set; } = string.Empty;
+
+        [Required]
+        [RegularExpression(@"^\d{10}$", ErrorMessage = "Contact number must be exactly 10 digits")]
+        public string ContactNo { get; set; } = string.Empty;
+
     }
 }

@@ -75,3 +75,5 @@ C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagement
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.pdb
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\EmployeeManagementAPI.genruntimeconfig.cache
 C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\obj\Debug\net8.0\ref\EmployeeManagementAPI.dll
+C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\USER\Documents\My-Projects\DotNetPractice\Interviews\EmployeeManagementAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

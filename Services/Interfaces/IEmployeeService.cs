@@ -9,5 +9,7 @@ namespace EmployeeManagementAPI.Services.Interfaces
         void CreateEmployee(Employee employee);
         void UpdateEmployee(Employee employee);
         void DeleteEmployee(int id);
+        void AssignEmployeeToDepartment(int employeeId, int departmentId);
+  
     }
 }
