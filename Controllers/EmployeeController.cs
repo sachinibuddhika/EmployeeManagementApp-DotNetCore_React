@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace EmployeeManagementAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
@@ -17,6 +18,7 @@ namespace EmployeeManagementAPI.Controllers
             _service = service;
         }
 
+        [Authorize(Roles = "HR")]
         [HttpGet]
         public IActionResult GetAllEmployees()
         {
@@ -28,40 +30,72 @@ namespace EmployeeManagementAPI.Controllers
         public IActionResult GetEmployeeById(int id)
         {       
                 var employee = _service.GetEmployeeById(id);
-                return Ok(employee);           
+            return Ok(new
+            {
+                success = true,
+                data = employee
+            });
         }
 
+        [HttpGet("email/{email}")]
+        public IActionResult GetEmployeeByEmail(string email)
+        {
+            var employee = _service.GetEmployeeByEmail(email);
+            return Ok(new
+            {
+                success = true,
+                data = employee
+            });
+        }
+
+        [Authorize(Roles = "HR")]
         [HttpPost]
         public IActionResult CreateEmployee(Employee employee)
         {
             _service.CreateEmployee(employee);
-            return Ok("Employee created successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Employee created successfully"
+            });
         }
 
-
+ 
         [HttpPut]
-        public IActionResult UpdateEmployee(Employee employee)
+        public IActionResult UpdateEmployee([FromBody] Employee employee)
         {
             _service.UpdateEmployee(employee);
-            return Ok("Employee updated successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Employee updated successfully"
+            });
         }
 
-
+        [Authorize(Roles = "HR")]
         [HttpDelete("{id}")]
         public IActionResult DeleteEmployee(int id)
         {
             _service.DeleteEmployee(id);
-            return Ok("Employee deleted successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Employee deleted successfully"
+            });
         }
 
+        [Authorize(Roles = "HR")]
         [HttpPost("{employeeId}/assign/{departmentId}")]
         public IActionResult AssignEmployeeToDepartment(int employeeId, int departmentId)
         {
             _service.AssignEmployeeToDepartment(employeeId, departmentId);
-            return Ok($"Employee {employeeId} assigned to Department {departmentId}");
+            return Ok(new
+            {
+                success = true,
+                message = $"Employee {employeeId} assigned to Department {departmentId}"
+            });
         }
 
-        [Authorize]
         [HttpGet("test")]
         public IActionResult Test()
         {

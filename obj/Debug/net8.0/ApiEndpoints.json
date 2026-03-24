@@ -8,14 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "password",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "EmployeeManagementAPI.Models.Login",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -184,6 +179,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagementAPI.Controllers.EmployeeController",
+    "Method": "GetEmployeeByEmail",
+    "RelativePath": "api/Employee/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

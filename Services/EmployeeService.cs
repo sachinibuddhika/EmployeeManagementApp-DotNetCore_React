@@ -28,6 +28,21 @@ namespace EmployeeManagementAPI.Services
             return employee;
         }
 
+        public Employee GetEmployeeByEmail(string email)
+        {
+            var employee = _repository.GetEmployeeByEmail(email);
+
+            if (employee == null)
+            {
+                return null;
+            }
+            else
+            {
+                return employee;
+            }
+   
+        }
+
         public void CreateEmployee(Employee employee)
         {
             _repository.AddEmployee(employee);

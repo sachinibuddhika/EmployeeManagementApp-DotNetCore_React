@@ -24,7 +24,14 @@ namespace EmployeeManagementAPI.Middleware
             }
             catch (Exception ex)
             {
-                await HandleException(context, ex.Message, HttpStatusCode.InternalServerError);
+                if (ex.Message.Contains("Employee not found") || ex.Message.Contains("Invalid password"))
+                {
+                    await HandleException(context, "Invalid email or password", HttpStatusCode.Unauthorized);
+                }
+                else
+                {
+                    await HandleException(context, "Server error", HttpStatusCode.InternalServerError);
+                }
             }
         }
 

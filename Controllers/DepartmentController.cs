@@ -27,14 +27,22 @@ namespace EmployeeManagementAPI.Controllers
         public IActionResult GetDepartmentById(int id)
         {
             var department = _service.GetDepartmentById(id);
-            return Ok(department);
+            return Ok(new
+            {
+                success = true,
+                data = department
+            });
         }
 
         [HttpPost]
-        public IActionResult CreateDepartment(Department department)
+        public IActionResult CreateDepartment([FromBody] Department department)
         {
             _service.CreateDepartment(department);
-            return Ok("Department created successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Department created successfully"
+            });
         }
 
 
@@ -42,7 +50,11 @@ namespace EmployeeManagementAPI.Controllers
         public IActionResult UpdateDepartment(Department department)
         {
             _service.UpdateDepartment(department);
-            return Ok("Department updated successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Department updated successfully"
+            });
         }
 
 
@@ -50,7 +62,11 @@ namespace EmployeeManagementAPI.Controllers
         public IActionResult DeleteDepartment(int id)
         {
             _service.DeleteDepartment(id);
-            return Ok("Department deleted successfully");
+            return Ok(new
+            {
+                success = true,
+                message = "Department deleted successfully"
+            });
         }
     }
 }
